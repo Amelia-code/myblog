@@ -10,83 +10,54 @@ export default function Footer() {
   };
 
   return (
-    <footer>
-      <div id="foot">
-        <div className="hand">
-          <div className="finger">My blog</div>
-          <div className="subtitle">
-            Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit, sed
-          </div>
-          <div className="end">© 2022 blog, Inc.</div>
+    <footer className="flex justify-around flex-wrap w-full bg-gray-600 text-white h-[250px] py-7">
+      <div className="flex flex-col justify-between">
+        <div className="font-bold text-2xl">My blog</div>
+        <div>
+          Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit, sed
         </div>
-        <div className="drx">
-          <div className="deft">MEMU</div>
-          <div className="beryl">
-            About us <br />
-            Contacts
-            <br />
-            Tems &amp; Condition
-            <br />
-            Privacy Policy
-            <br />
-          </div>
+        <div>© 2022 blog, Inc.</div>
+      </div>
+      <div className="flex flex-col justify-start">
+        <div className="font-bold text-2xl">MEMU</div>
+        <div className="flex flex-col mt-5 justify-between h-full">
+          <a>About us</a>
+          <a>Contacts</a>
+          <a>Tems & Condition</a>
+          <a>Privacy Policy</a>
         </div>
-        <div className="geng">
-          <div className="chovy">FOLLOW US</div>
-          <div className="ruler">
-            <a
-              href="https://www.facebook.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {" "}
-              Facebook
-              <br />{" "}
-            </a>
-            <a href="https://twitter.com/" target="_blank" rel="noreferrer">
-              {" "}
-              Twitter
-              <br />{" "}
-            </a>
-            <a
-              href="https://www.instagram.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {" "}
-              Instargram
-              <br />{" "}
-            </a>
-            <a href="index.html" target="_blank">
-              {" "}
-              Rss <br />{" "}
-            </a>
-          </div>
+      </div>
+      <div className="flex flex-col justify-start">
+        <div className="font-bold text-2xl">FOLLOW US</div>
+        <div className="flex flex-col mt-5 h-full justify-between gap-1">
+          <a>Facebook</a>
+          <a>Twitter</a>
+          <a>Instargram</a>
+          <a>Github</a>
         </div>
-        <div className="t1">
-          <div className="faker">NEW SLETTER</div>
-          <div className="keria">Suspendisse handrerit tellus</div>
+      </div>
+      <div className="flex flex-col">
+        <div className="font-bold text-2xl">NEW SLETTER</div>
+        <div className="mt-3">Suspendisse handrerit tellus</div>
 
-          <div className="letter">
-            <form>
-              <input
-                type="text"
-                value={email}
-                onChange={(e) => setName(e.target.value)}
-                placeholder="Search for..."
-              />
-              <div className="lastline" />
-              <button
-                type="button"
-                className="bts"
-                onClick={handleSubmit}
-                style={{ cursor: "pointer" }}
-              >
-                <img src="img/kakao.png" />
-              </button>
-            </form>
-          </div>
-        </div>
+        <form className="flex rounded-lg mt-3 bg-white">
+          <input
+            type="text"
+            value={email}
+            onChange={(e) => setName(e.target.value)}
+            placeholder="Search for..."
+            className="bg-transparent p-2 text-white"
+          />
+          <span className="h-full border-gray-700 border-[1px]" />
+          <button
+            type="button"
+            className="p-3"
+            onClick={handleSubmit}
+            style={{ cursor: "pointer" }}
+          >
+            <img src="img/kakao.png" />
+          </button>
+        </form>
       </div>
     </footer>
   );

@@ -12,8 +12,8 @@ function App() {
       <Banner />
       <Header />
       <Sidebar />
-      {/* <Main />
-      <Footer /> */}
+      {/* <Main /> */}
+      <Footer />
     </div>
   );
 }

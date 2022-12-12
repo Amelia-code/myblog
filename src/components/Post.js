@@ -19,7 +19,7 @@ export default function Post() {
       </div>
       <div className="btn">
         <a href="index.html" target="_blank" className="btn1">
-          <img src="img/arrow.png" />
+          <img src="img/arrow.png" alt="" />
         </a>
         <a href="index.html" target="_blank" className="btn2">
           more
