@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Sidebar() {
   return (
-    <div className="flex flex-col text-[12px] text-[#dadada]  bg-[#333333] dark:bg-slate-800 dark:border-slate-500 w-[240px] p-[21px] h-[900px] mb-1 text-white">
+    <div className="flex flex-col text-[12px] text-[#dadada]  bg-[#333333] dark:bg-slate-800 dark:border-slate-500 w-[240px] p-[21px] h-[970px] mb-1 text-white">
       <img src="img/yumi.png" alt="catimg" />
       <div className="text-[20px] font-bold mt-[10px]" > Miyu </div>
       <div className="text-[12px] mt-2">
-        I love 귀멸의 칼날! 원피스 에이스와 결혼하고싶은데 죽었어용 ㅠ
+        안녕하세요. 미유입니다 포지션은 원딜을 맡고있고요! 페이커를좋아해요♥
       </div>
       <hr className="my-2" />
       <div className="flex">

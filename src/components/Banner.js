@@ -61,7 +61,7 @@ const handleThemeSwitch = () => {
         <a href="/">Miyu Blog</a>
       </h1>
       <p className="text-[14px]  font-bold dark:text-slate-50">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      "나~의~ 고기고기 물고기는 어디 어디 어디에~"
       </p>
     </div>
   );

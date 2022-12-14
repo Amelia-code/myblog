@@ -21,19 +21,19 @@ export default function Footer() {
       <div className="flex flex-col justify-start">
         <div className="font-bold text-2xl">MEMU</div>
         <div className="flex flex-col mt-5 justify-between h-full">
-          <a>About us</a>
-          <a>Contacts</a>
-          <a>Tems & Condition</a>
-          <a>Privacy Policy</a>
+          <a href="/">About us</a>
+          <a href="/">Contacts</a>
+          <a href="/">Tems & Condition</a>
+          <a href="/">Privacy Policy</a>
         </div>
       </div>
       <div className="flex flex-col justify-start">
         <div className="font-bold text-2xl">FOLLOW US</div>
         <div className="flex flex-col mt-5 h-full justify-between gap-1">
-          <a>Facebook</a>
-          <a>Twitter</a>
-          <a>Instargram</a>
-          <a>Github</a>
+          <a href="https://www.facebook.com/" target="_blank" >Facebook</a>
+          <a href="https://twitter.com/home?lang=ko" target="_blank">Twitter</a>
+          <a href="https://www.instagram.com/" target="_blank">Instargram</a>
+          <a href="https://github.com/" target="_blank">Github</a>
         </div>
       </div>
       <div className="flex flex-col">

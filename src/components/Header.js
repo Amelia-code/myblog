@@ -10,13 +10,13 @@ export default function Header() {
             <a href="/"> Prologue </a>
           </li>
           <li>
-            <a href="/"> Blog </a>
+            <a href="/"> Podge </a>
           </li>
           <li>
-            <a href="/"> Post </a>
+            <a href="/"> Report </a>
           </li>
           <li>
-            <a href="/"> Post2 </a>
+            <a href="/"> OPGG </a>
           </li>
         </ul>
       </nav>

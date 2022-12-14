@@ -4,7 +4,7 @@ import Post from "./Post";
 export default function Main() {
   return (
     <section>
-      <div className = "absolute left-[330px] top-[230px] dark:text-slate-50 ">
+      <div className = "absolute left-[330px] top-[215px] dark:text-slate-50 ">
         <Post />
         <Post />
         <Post />
