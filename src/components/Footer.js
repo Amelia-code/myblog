@@ -3,9 +3,13 @@ import { useState } from "react";
 
 export default function Footer() {
   const [email, setName] = useState("");
-
+  
   const handleSubmit = (event) => {
     event.preventDefault();
+    if(!email){ 
+    alert('you must enter your email')
+    return;
+  }
     alert(`The email you entered was: ${email}`);
   };
 
@@ -40,13 +44,13 @@ export default function Footer() {
         <div className="font-bold text-2xl">NEW SLETTER</div>
         <div className="mt-3">Suspendisse handrerit tellus</div>
 
-        <form className="flex rounded-lg mt-3 bg-white">
+        <form className="flex rounded-lg mt-3 bg-white ">
           <input
             type="text"
             value={email}
             onChange={(e) => setName(e.target.value)}
             placeholder="Search for..."
-            className="bg-transparent p-2 text-white"
+            className="bg-transparent p-2 text-gray-900 "
           />
           <span className="h-full border-gray-700 border-[1px]" />
           <button

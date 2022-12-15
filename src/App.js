@@ -1,6 +1,5 @@
 import React from "react";
-import "./App.css";
-import  {  Scrollbar  }  from  'react-scrollbars-custom' ; 
+import "./App.css"; 
 import Banner from "./components/Banner";
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
