@@ -7,16 +7,16 @@ export default function Header() {
       <nav className="bg-[#333333] py-1 flex justify-start dark:bg-slate-700">
         <ul className="flex justify-around  min-w-[300px] max-w-[600px]">
           <li>
-            <a href="/"> Prologue </a>
+            <a href="index.html"> Prologue </a>
           </li>
           <li>
-            <a href="/"> Podge </a>
+            <a href="index.html"> Podge </a>
           </li>
           <li>
-            <a href="/"> Report </a>
+            <a href="index.html"> Report </a>
           </li>
           <li>
-            <a href="/"> OPGG </a>
+            <a href="index.html"> OPGG </a>
           </li>
         </ul>
       </nav>

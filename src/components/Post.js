@@ -16,7 +16,7 @@ export default function Post() {
       </div>
       <div className="flex pb-[10px]">
         <a href="https://www.leagueoflegends.com/ko-kr/news/game-updates/patch-12-23-notes/" target="_blank" className="flex flex-row  border-[2px] pl-[15px] mt-[6px] pt-[1px] pb-[3px] rounded-2xl border-gray-400 text-gray-700 dark:text-slate-50" > more 
-        <img src="img/Layer1.png"  className = "mr-[10px] ml-1" alt="" /> </a>
+        <img src={require("./img/Layer1.png")}  className = "mr-[10px] ml-1" alt="" /> </a>
       </div>
     </div>
   );

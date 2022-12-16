@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/myblog/static/css/main.b9efb6fe.css",
+    "main.js": "/myblog/static/js/main.65887cf3.js",
+    "static/js/787.f587e8d5.chunk.js": "/myblog/static/js/787.f587e8d5.chunk.js",
+    "static/media/yumi.png": "/myblog/static/media/yumi.bd126b205ac34556dfbd.png",
+    "index.html": "/myblog/index.html",
+    "main.b9efb6fe.css.map": "/myblog/static/css/main.b9efb6fe.css.map",
+    "main.65887cf3.js.map": "/myblog/static/js/main.65887cf3.js.map",
+    "787.f587e8d5.chunk.js.map": "/myblog/static/js/787.f587e8d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9efb6fe.css",
+    "static/js/main.65887cf3.js"
+  ]
+}

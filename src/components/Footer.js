@@ -59,7 +59,7 @@ export default function Footer() {
             onClick={handleSubmit}
             style={{ cursor: "pointer" }}
           >
-            <img src="img/kakao.png" alt ="kakao" />
+            <img src={require("./img/kakao.png")} alt ="kakao" />
           </button>
         </form>
       </div>

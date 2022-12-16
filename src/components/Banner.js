@@ -58,7 +58,7 @@ const handleThemeSwitch = () => {
                 </div>
                 
       <h1 className="text-[48px] font-bold dark:text-slate-50">
-        <a href="/">Miyu Blog</a>
+      <a href="https://miyumincat.github.io/myblog/">Miyu Blog</a>
       </h1>
       <p className="text-[14px]  font-bold dark:text-slate-50">
       "나~의~ 고기고기 물고기는 어디 어디 어디에~"
